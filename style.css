@@ -596,8 +596,7 @@ footer .copyright{
 /* Media Query. Making it responsive for 
 Medium Screen Devices */
 
-@media (max-width: 799px){
-
+@media (max-width:799px){
     .section-p1{
         padding: 40px 40px;
     }
@@ -707,6 +706,8 @@ Small Screen Devices suc as phones */
     .section-p1 {
         padding: 20px;
     }
+
+    
     #header{
         padding: 10px 30px;
     }
