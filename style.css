@@ -134,6 +134,10 @@ body{
     color:#1a1a1a;
 }
 
+#close{
+    display: none;
+}
+
 
 /* Home Page */
 
@@ -592,6 +596,10 @@ footer .copyright{
 /* Media Query. Making it responsive */
 
 @media (max-width: 799px){
+
+    .section-p1{
+        padding: 40px 40px;
+    }
     #navbar{
         display: flex;
         flex-direction: column;
@@ -631,10 +639,36 @@ footer .copyright{
     }
 
     #close{
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
     color: #222;
     font-size: 24px;
     }
+
+    #lg-bag{
+        display: none;
+    }
+
+
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position:top 30% right 40%;
+    }
+    
+    #feature{
+        justify-content: center;
+        
+    }
+
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container{
+        justify-content: center;
+    }
+
 } 
